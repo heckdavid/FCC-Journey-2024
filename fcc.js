@@ -28,6 +28,12 @@ console.log(character);
 character = "world";
 console.log(character);
 
+// Step 7 //
+let character = 'Hello';
+console.log(character);
+character = "world";
+console.log(character);
+let secondCharacter;
 
 
 
