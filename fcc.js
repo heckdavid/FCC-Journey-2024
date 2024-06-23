@@ -22,3 +22,20 @@ let character = 'Hello';
 console.log(character);
 character = "world";
 
+// Step 6 //
+let character = 'Hello';
+console.log(character);
+character = "world";
+console.log(character);
+
+
+
+
+
+
+
+
+
+
+
+
