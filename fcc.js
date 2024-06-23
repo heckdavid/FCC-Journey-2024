@@ -7,3 +7,6 @@ let character;
 
 let character = "Hello";
 
+// Step 3 //
+
+let character = 'Hello';
