@@ -16,3 +16,9 @@ let character = 'Hello';
 let character = 'Hello';
 console.log(character);
 
+// Step 5 //
+
+let character = 'Hello';
+console.log(character);
+character = "world";
+
