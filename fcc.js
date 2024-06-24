@@ -57,6 +57,16 @@ let secondCharacter;
 console.log(secondCharacter);
 secondCharacter = "Test";
 
+// Step 10 //
+
+let character = "Hello";
+console.log(character);
+character = "world";
+let secondCharacter;
+secondCharacter = character;
+console.log(secondCharacter);
+
+
 
 
 
