@@ -70,7 +70,12 @@ console.log(secondCharacter);
 
 let character = 'Hello';
 
+// Step 12 //
 
+let profession = "teacher";
+let age;
+console.log(profession);
+console.log(age);
 
 
 
