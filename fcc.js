@@ -1,6 +1,7 @@
 // Learning introductory javascript by building a pyramid generator //
 
 // Step 1 //
+
 let character;
 
 // Step 2 //
@@ -23,18 +24,28 @@ console.log(character);
 character = "world";
 
 // Step 6 //
+
 let character = 'Hello';
 console.log(character);
 character = "world";
 console.log(character);
 
 // Step 7 //
+
 let character = 'Hello';
 console.log(character);
 character = "world";
 console.log(character);
 let secondCharacter;
 
+// Step 8 //
+
+let character = 'Hello';
+console.log(character);
+character = "world";
+console.log(character);
+let secondCharacter;
+console.log(secondCharacter);
 
 
 
