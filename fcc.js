@@ -66,6 +66,10 @@ let secondCharacter;
 secondCharacter = character;
 console.log(secondCharacter);
 
+// Step 11 //
+
+let character = 'Hello';
+
 
 
 
