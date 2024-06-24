@@ -77,6 +77,9 @@ let age;
 console.log(profession);
 console.log(age);
 
+// Step 13 //
+
+let character = "Hello";
 
 
 
