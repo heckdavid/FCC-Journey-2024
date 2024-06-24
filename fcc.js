@@ -81,6 +81,13 @@ console.log(age);
 
 let character = "Hello";
 
+// Step 14 // 
+
+let character = "Hello";
+let count = 8;
+
+
+
 
 
 
