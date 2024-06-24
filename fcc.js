@@ -86,6 +86,20 @@ let character = "Hello";
 let character = "Hello";
 let count = 8;
 
+// Step 15 //
+
+let character = "Hello";
+let count = 8;
+console.log(count + 1);
+
+
+
+
+
+
+
+
+
 
 
 
