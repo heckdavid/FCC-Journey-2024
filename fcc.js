@@ -162,6 +162,51 @@ console.log(rows);
 
 // Step 25 //
 
+let character = 'Hello';
+let count = 8;
+let rows = ["Naomi", "Quincy", "CamperChan"];
+rows.push("freeCodeCamp")
+console.log(rows);
+
+// Step 26 //
+
+let character = 'Hello';
+let count = 8;
+let rows = ["Naomi", "Quincy", "CamperChan"];
+rows.push("freeCodeCamp");
+let popped = rows.pop();
+console.log(popped);
+console.log(rows);
+
+// Step 27 //
+
+let character = 'Hello';
+let count = 8;
+let rows = ["Naomi", "Quincy", "CamperChan"];
+rows.push("freeCodeCamp");
+let popped = rows.pop();
+let pushed = rows.push("freeCodeCamp");
+console.log(pushed);
+console.log(popped);
+console.log(rows);
+
+// Step 28 //
+
+let character = 'Hello';
+let count = 8;
+let rows = ["Naomi", "Quincy", "CamperChan"];
+
+// Step 29 //
+
+
+
+
+
+
+
+
+
+
 
 
 
