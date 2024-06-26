@@ -137,6 +137,31 @@ console.log(rows);
 
 // Step 22 //
 
+let character = 'Hello';
+let count = 8;
+let rows = ["Naomi", "Quincy", "CamperChan"];
+console.log(rows);
+
+// Step 23 //
+
+let character = 'Hello';
+let count = 8;
+let rows = ["Naomi", "Quincy", "CamperChan"];
+let cities = ["London", "New York","Mumbai"];
+console.log(cities);
+cities[cities.length - 1] = "Mexico City";
+console.log(cities);
+console.log(rows);
+
+// Step 24 //
+
+let character = 'Hello';
+let count = 8;
+let rows = ["Naomi", "Quincy", "CamperChan"];
+console.log(rows);
+
+// Step 25 //
+
 
 
 
