@@ -92,6 +92,58 @@ let character = "Hello";
 let count = 8;
 console.log(count + 1);
 
+// Step 16 //
+
+let character = 'Hello';
+let count = 8;
+
+// Step 17 //
+
+let character = 'Hello';
+let count = 8;
+let rows = [];
+
+// Step 18 //
+
+let character = 'Hello';
+let count = 8;
+let rows = ["Naomi", "Quincy", "CamperChan"];
+
+// Step 19 //
+
+let character = 'Hello';
+let count = 8;
+let rows = ["Naomi", "Quincy", "CamperChan"];
+console.log(rows[0]);
+
+// Step 20 //
+
+let character = 'Hello';
+let count = 8;
+let rows = ["Naomi", "Quincy", "CamperChan"];
+console.log(rows[0]);
+rows[2] = 10;
+console.log(rows);
+
+// Step 21 //
+
+let character = 'Hello';
+let count = 8;
+let rows = ["Naomi", "Quincy", "CamperChan"];
+console.log(rows[0]);
+rows[2] = 10;
+rows[rows.length - 1];
+console.log(rows);
+
+// Step 22 //
+
+
+
+
+
+
+
+
 
 
 
