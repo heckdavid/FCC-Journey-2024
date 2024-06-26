@@ -451,8 +451,144 @@ console.log(result);
 
 // Step 50 //
 
+const character = "#";
+const count = 8;
+const rows = [];
+function padRow() {
+  return "Hello!";
+}
+const call = padRow();
+console.log(call);
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
 
+// Step 51 //
 
+const character = "#";
+const count = 8;
+const rows = [];
+function padRow(name) {
+  return "Hello!";
+}
+const call = padRow();
+console.log(call);
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
+
+// Step 52 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+function padRow(name) {
+  return name;
+}
+const call = padRow();
+console.log(call);
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
+
+// Step 53 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+function padRow(name) {
+  return name;
+}
+const call = padRow();
+padRow("Placeholder text");
+console.log(call);
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
+
+// Step 54 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+function padRow(name) {
+  return name;
+}
+function addTwoNumbers(num1, num2) {
+  return num1 + num2;
+}
+let sum = addTwoNumbers(5, 10);
+console.log(sum);
+const call = padRow("CamperChan");
+console.log(call);
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
+
+// Step 55 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+function padRow(name) {
+  return name;
+}
+const call = padRow();
+console.log(call);
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
+
+// Step 56 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+function padRow(name) {
+  return character + name;
+}
+const call = padRow("CamperChan");
+console.log(call);
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
+
+// Step 57 //
 
 
 
