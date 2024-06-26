@@ -366,17 +366,90 @@ for (const row of rows) {
 }
 console.log(result);
 
- // Sterp 45 // 
+ // Step 45 // 
 
+const character = "#";
+const count = 8;
+const rows = [];
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i));
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
 
+// Step 46 //
 
+const character = "#";
+const count = 8;
+const rows = [];
+function padRow() {
+}
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
 
+// Step 47 //
 
+const character = "#";
+const count = 8;
+const rows = [];
+function padRow() {
+}
+padRow();
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
 
+// Step 48 //
 
+const character = "#";
+const count = 8;
+const rows = [];
+function padRow() {
+}
+padRow();
+const call = padRow();
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
 
+// Step 49 //
 
+const character = "#";
+const count = 8;
+const rows = [];
+function padRow() {
+}
+const call = padRow();
+console.log(call);
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
 
+// Step 50 //
 
 
 
