@@ -245,13 +245,128 @@ for (let i = 0; i < count; "iteration") {
 
 // Step 35 //
 
+const character = "#";
+const count = 8;
+const rows = [];
 
+for (let i = 0; i < count; i = i + 1) {
 
+}
 
+// Step 36 //
 
+const character = "#";
+const count = 8;
+const rows = [];
 
+for (let i = 0; i < count; i = i + 1) {
+console.log(i);
+}
 
+// Step 37 //
 
+const character = "#";
+const count = 8;
+const rows = [];
+
+for (let i = 0; i < count; i = i + 1) {
+rows.push(i);
+}
+
+// Step 38 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(i);
+}
+
+let result = [];
+
+// Step 39 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(i);
+}
+let result = " ";
+console.log(result);
+
+// Step 40 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(i);
+}
+let result = ""
+for (const row of rows) {
+}
+console.log(result);
+
+// Step 41 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(i);
+}
+let result = ""
+for (const row of rows) {
+  result = result + row;
+}
+console.log(result);
+
+// Step 42 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(i);
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
+
+// Step 43 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+for (let character = 0; character < count; character = character + 1) {
+  rows.push(character);
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
+
+// Step 44 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i));
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
+
+ // Sterp 45 // 
 
 
 
