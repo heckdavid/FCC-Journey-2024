@@ -649,9 +649,113 @@ for (const row of rows) {
   result = result + "\n" + row;
 }
 console.log(result);
+
  // Step 60 //
 
+const character = "#";
+const count = 8;
+const rows = [];
+function padRow() {
+  const test = "Testing";
+  return test;
+}
+const call = padRow();
+console.log(call);
 
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
+
+// Strep 61 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+function padRow() {
+}
+const call = padRow();
+console.log(call);
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
+
+// Step 62 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+function padRow() {
+}
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
+
+// Step 63 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+function padRow(rowNumber, rowCount) {
+}
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
+
+// Step 64 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+function padRow(rowNumber, rowCount) {
+  return character.repeat(rowNumber);
+}
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
+
+// Step 65 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+function padRow(rowNumber, rowCount) {
+  return character.repeat(rowNumber);
+}
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(padRow());
+}
+let result = ""
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+console.log(result);
+
+// Step 66 //
 
 
 
