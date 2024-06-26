@@ -198,10 +198,52 @@ let rows = ["Naomi", "Quincy", "CamperChan"];
 
 // Step 29 //
 
+let character = "Hello";
+let count = 8;
+let rows = [];
 
+// Step 30 //
 
+const character = "Hello";
+const count = 8;
+const rows = [];
 
+// Step 31 //
 
+const character = "#";
+const count = 8;
+const rows = [];
+
+// Step 32 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+for ("iterator"; "condition"; "iteration") {
+  
+}
+
+// Step 33 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+for (let i = 0; "condition"; "iteration") {
+
+}
+
+// Step 34 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+for (let i = 0; i < count; "iteration") {
+
+}
+
+// Step 35 //
 
 
 
