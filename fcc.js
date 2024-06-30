@@ -1778,6 +1778,589 @@ console.log(result);
 
 // Step 103 //
 
+const character = "#";
+const count = 8;
+const rows = [];
+
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+}
+
+// TODO: use a different type of loop
+/*for (let i = 1; i <= count; i++) {
+  rows.push(padRow(i, count));
+}*/
+
+/*while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}*/
+
+for (let i = count; i > 0; i -= 1) {
+  rows.push(padRow(i, count));
+}
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+// Step 104 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+}
+
+// TODO: use a different type of loop
+/*for (let i = 1; i <= count; i++) {
+  rows.push(padRow(i, count));
+}*/
+
+/*while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}*/
+
+for (let i = count; i > 0; i--) {
+  rows.push(padRow(i, count));
+}
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+// Step 105 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+}
+
+// TODO: use a different type of loop
+/*for (let i = 1; i <= count; i++) {
+  rows.push(padRow(i, count));
+}*/
+
+/*while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}*/
+
+/* for (let i = count; i > 0; i--) {
+  rows.push(padRow(i, count));
+} */
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+// Step 106 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+}
+
+// TODO: use a different type of loop
+/*for (let i = 1; i <= count; i++) {
+  rows.push(padRow(i, count));
+}*/
+
+/*while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}*/
+
+/*for (let i = count; i > 0; i--) {
+  rows.push(padRow(i, count));
+}*/
+
+const numbers = [1, 2, 3]
+console.log(numbers);
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+// Step 107 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+}
+
+// TODO: use a different type of loop
+/*for (let i = 1; i <= count; i++) {
+  rows.push(padRow(i, count));
+}*/
+
+/*while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}*/
+
+/*for (let i = count; i > 0; i--) {
+  rows.push(padRow(i, count));
+}*/
+
+const numbers = [1, 2, 3];
+const unshifted = numbers.unshift(5);
+console.log(unshifted);
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+// Step 108 // 
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+}
+
+// TODO: use a different type of loop
+/*for (let i = 1; i <= count; i++) {
+  rows.push(padRow(i, count));
+}*/
+
+/*while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}*/
+
+/*for (let i = count; i > 0; i--) {
+  rows.push(padRow(i, count));
+}*/
+
+const numbers = [1, 2, 3];
+const shifted = 
+numbers.shift();
+console.log(shifted);
+const unshifted = numbers.unshift(5);
+console.log(unshifted);
+console.log(numbers);
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+// Step 109 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+}
+
+// TODO: use a different type of loop
+/*for (let i = 1; i <= count; i++) {
+  rows.push(padRow(i, count));
+}*/
+
+/*while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}*/
+
+/*for (let i = count; i > 0; i--) {
+  rows.push(padRow(i, count));
+}*/
+
+
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+// Step 110 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+}
+
+// TODO: use a different type of loop
+for (let i = 1; i <= count; i++) {
+  rows.push(padRow(i, count));
+}
+
+/*while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}*/
+
+/* for (let i = count; i > 0; i--) {
+  rows.push(padRow(i, count));
+} */
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+// Step 111 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+}
+
+// TODO: use a different type of loop
+for (let i = 1; i <= count; i++) {
+  rows.push(padRow(i, count));
+  rows.unshift(padRow(i, count));
+}
+
+/*while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}*/
+
+/*for (let i = count; i > 0; i--) {
+  rows.push(padRow(i, count));
+}*/
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+// Step 112 // 
+
+const character = "#";
+const count = 8;
+const rows = [];
+let inverted = true;
+
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+}
+
+// TODO: use a different type of loop
+for (let i = 1; i <= count; i++) {
+  rows.unshift(padRow(i, count));
+}
+
+/*while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}*/
+
+/*for (let i = count; i > 0; i--) {
+  rows.push(padRow(i, count));
+}*/
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+// Step 113 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+let inverted = true;
+
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+}
+
+// TODO: use a different type of loop
+for (let i = 1; i <= count; i++) {
+  if (inverted) {
+    console.log("")
+  }
+  rows.unshift(padRow(i, count));
+}
+
+/*while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}*/
+
+/*for (let i = count; i > 0; i--) {
+  rows.push(padRow(i, count));
+}*/
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+// Step 114 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+let inverted = true;
+
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+}
+
+// TODO: use a different type of loop
+for (let i = 1; i <= count; i++) {
+  if (inverted) {
+  rows.unshift(padRow(i, count));
+
+  }
+}
+
+/*while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}*/
+
+/*for (let i = count; i > 0; i--) {
+  rows.push(padRow(i, count));
+}*/
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+// Step 115 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+let inverted = true;
+
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+}
+
+// TODO: use a different type of loop
+for (let i = 1; i <= count; i++) {
+  if (inverted) {
+    rows.unshift(padRow(i, count));
+  } else {
+    
+  }
+
+}
+
+/*while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}*/
+
+/*for (let i = count; i > 0; i--) {
+  rows.push(padRow(i, count));
+}*/
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+// Step 116 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+let inverted = true;
+
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+}
+
+// TODO: use a different type of loop
+for (let i = 1; i <= count; i++) {
+  if (inverted) {
+    rows.unshift(padRow(i, count));
+  } else {
+    rows.push(padRow(i, count));
+  }
+}
+
+/*while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}*/
+
+/*for (let i = count; i > 0; i--) {
+  rows.push(padRow(i, count));
+}*/
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+// Step 117 //
+
+const character = "#";
+const count = 8;
+const rows = [];
+let inverted = true;
+
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+}
+
+for (let i = 1; i <= count; i++) {
+  if (inverted) {
+    rows.unshift(padRow(i, count));
+  } else {
+    rows.push(padRow(i, count));
+  }
+}
+
+while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}
+
+for (let i = count; i > 0; i--) {
+  rows.push(padRow(i, count));
+}
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+// Final Step: Step 118 //
+
+const character = "!";
+const count = 10;
+const rows = [];
+let inverted = false;
+
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+}
+
+for (let i = 1; i <= count; i++) {
+  if (inverted) {
+    rows.unshift(padRow(i, count));
+  } else {
+    rows.push(padRow(i, count));
+  }
+}
+
+let result = ""
+
+for (const row of rows) {
+  result = result + "\n" + row;
+}
+
+console.log(result);
+
+// 
+
+// Review Javascript Fundamentals By Building A Gradebook App //
+
+// Step 1 //
+
+function getAverage(scores) {
+let newAverage = 0;
+  for(let i = 0; i < scores.length; i++) {
+    newAverage += scores[i];
+  }
+  return newAverage / scores.length;
+}
+
+
+console.log(getAverage([92, 88, 12, 77, 57, 100, 67, 38, 97, 89]));
+console.log(getAverage([45, 87, 98, 100, 86, 94, 67, 88, 94, 95]));
+
+// Step 2 //
+
+function getAverage(scores) {
+  let sum = 0;
+
+  for (const score of scores) {
+    sum += score;
+  }
+
+  return sum / scores.length;
+}
+function getGrade (score) {
+  if (score === 100) {
+    return "A++";
+   } else if (score >= 90) {
+     return "A";
+   } else if (score >= 80) {
+     return "B";
+   } else if (score >= 70) {
+     return "C";
+   } else if (score >= 60) {
+     return "D";
+   } else {
+     return "F";
+   }
+}
+
+console.log(getGrade(96));
+console.log(getGrade(82));
+console.log(getGrade(56));
+
+// Step 3 //
+
 
 
 
