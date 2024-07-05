@@ -2471,22 +2471,162 @@ function studentMsg(totalScores, studentScore) {
 console.log(studentMsg([92, 88, 12, 77, 57, 100, 67, 38, 97, 89], 37));
 console.log(studentMsg([56, 23, 89, 42, 75, 11, 68, 34, 91, 19], 100));
 
-// 
+// Learn HTML By Building A Cat Photo App //
 
+// Step 1 //
 
+<html>
+  <body>
+    <h1>CatPhotoApp</h1>
+  </body>
+</html>
 
+// Step 2 //
 
+<html>
+  <body>
+    <h1>CatPhotoApp</h1>
+    <h2>Cat Photos</h2>
+  </body>
+</html>
 
+// Step 3 //
 
+<html>
+  <body>
+    <h1>CatPhotoApp</h1>
+    <h2>Cat Photos</h2>
+    <p>See more cat photos in our gallery.</p>
+    
+  </body>
+</html>
 
+// Step 4 //
 
+<html>
+  <body>
+    <h1>CatPhotoApp</h1>
+    <h2>Cat Photos</h2>
+<!-- TODO: Add link to cat photos -->  
+    <p>See more cat photos in our gallery.</p>
+    
+  </body>
+</html>
 
+// Step 5 //
 
+<html>
+  <body>
+<main>  
+    <h1>CatPhotoApp</h1>
+    <h2>Cat Photos</h2>
+    <!-- TODO: Add link to cat photos -->
+    <p>See more cat photos in our gallery.</p>
+</main> 
+  </body>
+</html>
 
+// Step 6 //
 
+<html>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <h2>Cat Photos</h2>
+      <!-- TODO: Add link to cat photos -->
+      <p>See more cat photos in our gallery.</p>
+    </main>
+  </body>
+</html>
 
+// Step 7 //
 
+<html>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <h2>Cat Photos</h2>
+      <!-- TODO: Add link to cat photos -->
+      <p>See more cat photos in our gallery.</p>
+      <img>
+    </main>
+  </body>
+</html>
 
+// Step 8 //
+
+<html>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <h2>Cat Photos</h2>
+      <!-- TODO: Add link to cat photos -->
+      <p>See more cat photos in our gallery.</p>
+      <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg">
+    </main>
+  </body>
+</html>
+
+// Step 9 //
+
+<html>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <h2>Cat Photos</h2>
+      <!-- TODO: Add link to cat photos -->
+      <p>See more cat photos in our gallery.</p>
+      <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back">
+    </main>
+  </body>
+</html>
+
+// Step 10 //
+
+<html>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <h2>Cat Photos</h2>
+      <!-- TODO: Add link to cat photos -->
+      <p>See more cat photos in our gallery.</p>
+      <a href="https://freecatphotoapp.com"></a>
+      <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+    </main>
+  </body>
+</html>
+
+// Step 11 //
+
+<html>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <h2>Cat Photos</h2>
+      <!-- TODO: Add link to cat photos -->
+      <p>See more cat photos in our gallery.</p>
+      <a href="https://freecatphotoapp.com">link to cat pictures</a>
+      <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+    </main>
+  </body>
+</html>
+
+// Step 12 //
+
+<html>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <h2>Cat Photos</h2>
+      <!-- TODO: Add link to cat photos -->
+      <p>See more <a href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+      <a href="https://freecatphotoapp.com">link to cat pictures</a>
+      <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+    </main>
+  </body>
+</html>
+
+// Step 13 //
 
 
 
