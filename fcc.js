@@ -4538,37 +4538,931 @@ console.log(studentMsg([56, 23, 89, 42, 75, 11, 68, 34, 91, 19], 100));
   </body>
 </html>
 
-// Step 61 //
+// Step 61 // July Tuesday 07, 2024
 
+<html>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      </section>
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" checked type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" checked type="checkbox" name="personality" value="loving"> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic"> Energetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
 
+// Step 62 //
 
+<html>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      </section>
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+<footer></footer>
+  </body>
+</html>
 
+// Step 63 //
 
+<html>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      </section>
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>No Copyright - freeCodeCamp.org</p>
+    </footer>
+  </body>
+</html>
 
+// Step 64 //
 
+<html>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      </section>
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+    </footer>
+  </body>
+</html>
 
+// Step 65 //
 
+<html>
+  <head>
+  </head>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      </section>
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
 
+// Step 66 //
 
+<html>
+  <head>
+    <title>CatPhotoApp</title>
+  </head>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      </section>
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
 
+// Step 67 //
 
+<html lang="en">
+  <head>
+    <title>CatPhotoApp</title>
+  </head>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      </section>
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
 
+// Step 68 //
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CatPhotoApp</title>
+  </head>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      </section>
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
 
+// Step 69 // Final Step of this project
 
+<!DOCTYPE html>
 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CatPhotoApp</title>
+  </head>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      </section>
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
 
+// Next Challenge: Learn Basic CSS By Building A Cafe Menu //
 
+// Step 1 // Tuesday July 9th 2024
 
+<!DOCTYPE html>
+<html lang="en">
+</html>
 
+// Step 2 //
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>
+  Cafe Menu
+  </title>
+</head>
+</html>
 
+// Step 3 //
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Cafe Menu</title>
+  </head>
+</html>
 
+// Step 4 //
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cafe Menu</title>
+  </head>
+  <body>
+  </body>
+</html>
 
+// Step 5 //
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cafe Menu</title>
+  </head>
+  <body>
+    <main>
+    </main>
+  </body>
+</html>
 
+// Step 6 //
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cafe Menu</title>
+  </head>
+  <body>
+    <main>
+      <h1>CAMPER CAFE</h1>
+    </main>
+  </body>
+</html>
+
+// Step 7 //
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cafe Menu</title>
+  </head>
+  <body>
+    <main>
+      <h1>CAMPER CAFE</h1>
+      <p>Est. 2020</p>
+    </main>
+  </body>
+</html>
+
+// Step 8 //
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cafe Menu</title>
+  </head>
+  <body>
+    <main>
+      <h1>CAMPER CAFE</h1>
+      <p>Est. 2020</p>
+      <section>
+      </section>
+      <section>
+      </section>
+    </main>
+  </body>
+</html>
+
+// Step 9 //
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cafe Menu</title>
+  </head>
+  <body>
+    <main>
+      <h1>CAMPER CAFE</h1>
+      <p>Est. 2020</p>
+      <section>
+        <h2>Coffee</h2>
+      </section>
+    </main>
+  </body>
+</html>
+
+// Step 10 //
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cafe Menu</title>
+    <style></style>
+  </head>
+  <body>
+    <main>
+      <h1>CAMPER CAFE</h1>
+      <p>Est. 2020</p>
+      <section>
+        <h2>Coffee</h2>
+      </section>
+    </main>
+  </body>
+</html>
+
+// Step 11 //
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cafe Menu</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>CAMPER CAFE</h1>
+      <p>Est. 2020</p>
+      <section>
+        <h2>Coffee</h2>
+      </section>
+    </main>
+  </body>
+</html>
+
+// Step 12 //
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cafe Menu</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>CAMPER CAFE</h1>
+      <p>Est. 2020</p>
+      <section>
+        <h2>Coffee</h2>
+      </section>
+    </main>
+  </body>
+</html>
+
+// Step 13 //
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cafe Menu</title>
+    <style>
+      h1, h2, p {
+        text-align: center;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>CAMPER CAFE</h1>
+      <p>Est. 2020</p>
+      <section>
+        <h2>Coffee</h2>
+      </section>
+    </main>
+  </body>
+</html>
+
+// step 14 //
+
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cafe Menu</title>
+    <style>
+     styles.css
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>CAMPER CAFE</h1>
+      <p>Est. 2020</p>
+      <section>
+        <h2>Coffee</h2>
+      </section>
+    </main>
+  </body>
+</html>
+
+// CSS //
+h1, h2, p {
+        text-align: center;
+      }
+
+// Step 15 //
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cafe Menu</title>
+  </head>
+  <body>
+    <main>
+      <h1>CAMPER CAFE</h1>
+      <p>Est. 2020</p>
+      <section>
+        <h2>Coffee</h2>
+      </section>
+    </main>
+  </body>
+</html>
+
+// Step 16 //
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cafe Menu</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <h1>CAMPER CAFE</h1>
+      <p>Est. 2020</p>
+      <section>
+        <h2>Coffee</h2>
+      </section>
+    </main>
+  </body>
+</html>
+
+// step 17 //
+
+  // HTML //
+  
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <title>Cafe Menu</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <main>
+      <h1>CAMPER CAFE</h1>
+      <p>Est. 2020</p>
+      <section>
+        <h2>Coffee</h2>
+      </section>
+    </main>
+  </body>
+</html>
+
+// Step 18 //
+
+// CSS //
+h1, h2, p {
+  text-align: center;
+  
+}
+body {
+  background-color: brown;
+}
+
+// Step 19 //
+
+// CSS //
+
+body {
+  background-color: burlywood;
+}
+h1, h2, p {
+  text-align: center;
+}
+
+// Step 20 //
+
+// HTML // 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Menu</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div id="menu">
+    <main>
+      <h1>CAMPER CAFE</h1>
+      <p>Est. 2020</p>
+      <section>
+        <h2>Coffee</h2>
+      </section>
+      </div>
+    </main>
+  </body>
+</html>
+
+// Step 21 // Stopped here on Tuesday July 9th 2024
 
 
 
