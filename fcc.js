@@ -11808,7 +11808,992 @@ body {
   </body>
 </html>
 
-// Step 13 //
+// Step 13 // 
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+    <fieldset></fieldset>
+    <fieldset></fieldset>
+    <fieldset></fieldset>
+    </form>
+  </body>
+</html>
+
+// Step 14 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+          <label></label>
+          <label></label>
+          <label></label>
+          <label></label>
+      </fieldset>
+      <fieldset></fieldset>
+      <fieldset></fieldset>
+    </form>
+  </body>
+</html>
+
+// Step 15 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label>Enter Your First Name:</label>
+        <label>Enter Your Last Name:</label>
+        <label>Enter Your Email:</label>
+        <label>Create a New Password:</label>
+      </fieldset>
+      <fieldset></fieldset>
+      <fieldset></fieldset>
+    </form>
+  </body>
+</html>
+
+// Step 16 //
+// CSS //
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+// Step 17 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label>Enter Your First Name: <input></input></label>
+        <label>Enter Your Last Name: <input></input></label>
+        <label>Enter Your Email: <input></input></label>
+        <label>Create a New Password: <input></input></label>
+      </fieldset>
+      <fieldset></fieldset>
+      <fieldset></fieldset>
+    </form>
+  </body>
+</html>
+
+// Step 18 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name"/></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name"/></label>
+        <label for="email">Enter Your Email: <input id="email"/></label>
+        <label for="new-password">Create a New Password: <input id="new-password"/></label>
+      </fieldset>
+      <fieldset></fieldset>
+      <fieldset></fieldset>
+    </form>
+  </body>
+</html>
+
+// Step 19 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text"/></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text"/></label>
+        <label for="email">Enter Your Email: <input id="email" type="email"/></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password"/></label>
+      </fieldset>
+      <fieldset></fieldset>
+      <fieldset></fieldset>
+    </form>
+  </body>
+</html>
+
+// Step 20 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" /></label>
+      </fieldset>
+      <fieldset></fieldset>
+      <fieldset></fieldset>
+      <input type="submit" value="Submit">
+
+    </form>
+  </body>
+</html>
+
+// Step 21 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" required /></label>
+      </fieldset>
+      <fieldset></fieldset>
+      <fieldset></fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+
+// Step 22 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required/></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" required minlength="8" /></label>
+      </fieldset>
+      <fieldset></fieldset>
+      <fieldset></fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+// Step 23 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset></fieldset>
+      <fieldset></fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+
+// Step 24 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+      <label></label>
+      <label></label>
+      </fieldset>
+      <fieldset></fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+
+// Step 25 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <label >Personal<input type="radio"></label>
+        <label>Business <input type="radio"</label>
+      </fieldset>
+      <fieldset></fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+// Step 26 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <label><input type="radio" /> Personal</label>
+        <label><input type="radio" /> Business</label>
+      </fieldset>
+      <fieldset></fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+
+// Step 27 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <label><input type="radio" name="account-type" /> Personal</label>
+        <label><input type="radio" name="account-type" /> Business</label>
+      </fieldset>
+      <fieldset></fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+
+// Step 28 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label><input type="radio" name="account-type" checked /> Personal</label>
+        <label><input type="radio" name="account-type" /> Business</label>
+        
+      </fieldset>
+      <fieldset></fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+
+// Step 29 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input id ="personal-account" type="radio" name="account-type" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" /> Business</label>
+      </fieldset>
+      <fieldset></fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+
+// Step 30 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" /> Business</label>
+      </fieldset>
+      <fieldset></fieldset>
+<label for="terms-and-conditions"><input type="checkbox" id="terms-and-conditions" required></input></label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+
+// Step 31 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" /> Business</label>
+      </fieldset>
+      <fieldset></fieldset>
+      <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+
+// Step 32 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" /> Business</label>
+      </fieldset>
+      <fieldset>
+        <label> Upload a profile picture: <input type="file"></input></label>
+        
+      </fieldset>
+        <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+// Step 33 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" /> Business</label>
+      </fieldset>
+      <fieldset>
+        <label>Upload a profile picture: <input type="file" /></label>
+        <label>Input your age (years):<input type="number" min="13" max="120"></input></label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input id="terms-and-conditions" type="checkbox" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+// Step 34 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" /> Business</label>
+      </fieldset>
+      <fieldset>
+        <label>Upload a profile picture: <input type="file" /></label>
+        <label>Input your age (years): <input type="number" min="13" max="120" /></label>
+        <select>
+          <option></option>
+          <option></option>
+          <option></option>
+          <option></option>
+          <option></option>
+        </select>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input id="terms-and-conditions" type="checkbox" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+// Step 35 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" /> Business</label>
+      </fieldset>
+      <fieldset>
+        <label>Upload a profile picture: <input type="file" /></label>
+        <label>Input your age (years): <input type="number" min="13" max="120" /></label>
+      <label>How did you hear about us?        
+        <select>
+          <option></option>
+          <option></option>
+          <option></option>
+          <option></option>
+          <option></option>
+        </select>
+    </label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input id="terms-and-conditions" type="checkbox" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+// Step 36 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" /> Business</label>
+      </fieldset>
+      <fieldset>
+        <label>Upload a profile picture: <input type="file" /></label>
+        <label>Input your age (years): <input type="number" min="13" max="120" /></label>
+        <label>How did you hear about us?
+          <select>
+            <option>(select one)</option>
+            <option>freeCodeCamp News</option>
+            <option>freeCodeCamp YouTube Channel</option>
+            <option>freeCodeCamp Forum</option>
+            <option>Other</option>
+          </select>
+        </label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input id="terms-and-conditions" type="checkbox" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+// Step 37 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" checked/> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" /> Business</label>
+      </fieldset>
+      <fieldset>
+        <label>Upload a profile picture: <input type="file" /></label>
+        <label>Input your age (years): <input type="number" min="13" max="120" /></label>
+        <label>How did you hear about us?
+          <select>
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input id="terms-and-conditions" type="checkbox" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+
+// Step 38 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" /> Business</label>
+      </fieldset>
+      <fieldset>
+        <label>Upload a profile picture: <input type="file" /></label>
+        <label>Input your age (years): <input type="number" min="13" max="120" /></label>
+        <label>How did you hear about us?
+          <select>
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label>Provide a bio:<textarea></textarea></label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input id="terms-and-conditions" type="checkbox" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+// Step 39 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" /> Business</label>
+      </fieldset>
+      <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input id="profile-picture"/></label>
+        <label for="age">Input your age (years): <input id="age" type="number" min="13" max="120" /></label>
+        <label for="referrer">How did you hear about us?
+          <select id="referrer">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="bio"id="bio">Provide a bio:
+          <textarea id="bio"></textarea>
+        </label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input id="terms-and-conditions" type="checkbox" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+// Step 40 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" /> Business</label>
+      </fieldset>
+      <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" /></label>
+        <label for="age">Input your age (years): <input id="age" type="number" min="13" max="120" /></label>
+        <label for="referrer">How did you hear about us?
+          <select id="referrer">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="bio">Provide a bio:
+          <textarea id="bio" rows="3" cols="30"></textarea>
+        </label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input id="terms-and-conditions" type="checkbox" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+
+// Step 41 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" /> Business</label>
+      </fieldset>
+      <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" /></label>
+        <label for="age">Input your age (years): <input id="age" type="number" min="13" max="120" /></label>
+        <label for="referrer">How did you hear about us?
+          <select id="referrer">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="bio">Provide a bio:
+          <textarea id="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input id="terms-and-conditions" type="checkbox" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+// Step 42 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+        <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" name="one"required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" name="two" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" name="three"required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" name="four" required /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" /> Business</label>
+      </fieldset>
+      <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file"/></label>
+        <label for="age">Input your age (years): <input id="age" type="number" min="13" max="120" name="age" /></label>
+        <label for="referrer">How did you hear about us?
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">freeCodeCamp News</option>
+            <option value="2">freeCodeCamp YouTube Channel</option>
+            <option value="3">freeCodeCamp Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+        <label for="bio">Provide a bio:
+          <textarea id ="bio" rows="3" cols="30" placeholder="I like coding on the beach..." name="textarea"></textarea>
+        </label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input id="terms-and-conditions" type="checkbox" name="terms" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+// Step 43 //
+// HTML //
+
+
+
 
 
 
