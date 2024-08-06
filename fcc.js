@@ -22794,27 +22794,340 @@ function dodge() {
 
 }
 
-// Step 119 //
+// Step 119 // August 5th, 2024 Stuck at this step. Moving on to next challenge.
 // JS //
 
+// August 5th, 2024 Stuck at this step. Moving on to the next challenge. //
 
 
+// Next Project: Learn Basic Debugging by Building a Random Background Color Changer //
+// 8 steps //
 
+// Step 1 //
+// JS //
+const darkColorsArr = [
+  "#2C3E50",
+  "#34495E",
+  "#2C2C2C",
+  "#616A6B",
+  "#4A235A",
+  "#2F4F4F",
+  "#0E4B5A",
+  "#36454F",
+  "#2C3E50",
+  "#800020",
+];
 
+// Step 2 //
+// JS //
+const darkColorsArr = [
+  "#2C3E50",
+  "#34495E",
+  "#2C2C2C",
+  "#616A6B",
+  "#4A235A",
+  "#2F4F4F",
+  "#0E4B5A",
+  "#36454F",
+  "#2C3E50",
+  "#800020",
+];
+function getRandomIndex() {
+  console.log(darkColorsArr.length * Math.random())
+}
+getRandomIndex();
 
+// Step 3 //
+// JS //
+const darkColorsArr = [
+  "#2C3E50",
+  "#34495E",
+  "#2C2C2C",
+  "#616A6B",
+  "#4A235A",
+  "#2F4F4F",
+  "#0E4B5A",
+  "#36454F",
+  "#2C3E50",
+  "#800020",
+];
+function getRandomIndex() {
+  console.log(Math.floor(darkColorsArr.length * Math.random()))
+}
+getRandomIndex();
 
+// Step 4 //
+// JS //
+const darkColorsArr = [
+  "#2C3E50",
+  "#34495E",
+  "#2C2C2C",
+  "#616A6B",
+  "#4A235A",
+  "#2F4F4F",
+  "#0E4B5A",
+  "#36454F",
+  "#2C3E50",
+  "#800020",
+];
+function getRandomIndex() {
+  console.log(Math.floor(darkColorsArr.length * Math.random()));
+  const randomIndex = Math.floor(darkColorsArr.length * Math.random());
+  return randomIndex;
+}
 
+const body = document.querySelector("body");
 
+// Step 5 //
+// JS //
+const darkColorsArr = [
+  "#2C3E50",
+  "#34495E",
+  "#2C2C2C",
+  "#616A6B",
+  "#4A235A",
+  "#2F4F4F",
+  "#0E4B5A",
+  "#36454F",
+  "#2C3E50",
+  "#800020",
+];
+function getRandomIndex() {
+  const randomIndex = Math.floor(darkColorsArr.length * Math.random());
+  return randomIndex;
+}
 
+const body = document.querySelector("body");
+const bgHexCodeSpanElement = document.querySelector("#bg-hex-code");
 
+console.log(bgHexCodeSpanElement);
 
+// Step 6 //
+// JS //
+const darkColorsArr = [
+  "#2C3E50",
+  "#34495E",
+  "#2C2C2C",
+  "#616A6B",
+  "#4A235A",
+  "#2F4F4F",
+  "#0E4B5A",
+  "#36454F",
+  "#2C3E50",
+  "#800020",
+];
 
+function getRandomIndex() {
+  const randomIndex = Math.floor(darkColorsArr.length * Math.random());
+  return randomIndex;
+}
 
+const body = document.querySelector("body");
+const bgHexCodeSpanElement = document.querySelector("#bg-hex-code");
 
+function changeBackgroundColor() {
+  const color = darkColorsArr[getRandomIndex()];
 
+  bgHexCodeSpanElement.innerText = color;
+  body.style.backgroundColor = color;
+}
+changeBackgroundColor();
 
+// Step 7 //
+// HTML //
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Build a random background color changer</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Random Background Color changer</h1>
 
+    <main>
+      <section class="bg-information-container">
+        <p>Hex Code: <span id="bg-hex-code">#110815</span></p>
+      </section>
 
+      <button class="btn" id="click-btn">Change Background Color</button>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+// Step 8 //
+// JS //
+const darkColorsArr = [
+  "#2C3E50",
+  "#34495E",
+  "#2C2C2C",
+  "#616A6B",
+  "#4A235A",
+  "#2F4F4F",
+  "#0E4B5A",
+  "#36454F",
+  "#2C3E50",
+  "#800020",
+];
+
+function getRandomIndex() {
+  const randomIndex = Math.floor(darkColorsArr.length * Math.random());
+  return randomIndex;
+}
+
+const body = document.querySelector("body");
+const bgHexCodeSpanElement = document.querySelector("#bg-hex-code");
+
+function changeBackgroundColor() {
+  const color = darkColorsArr[getRandomIndex()];
+
+  bgHexCodeSpanElement.innerText = color;
+  body.style.backgroundColor = color;
+}
+const btn = document.querySelector("#btn");
+
+btn.onclick = changeBackgroundColor;
+
+// Challenge completed //
+
+// Learn Form Validation by Building a Calorie Counter //
+// 96 steps //
+
+// Step 1 //
+// HTML //
+<form id="calorie-counter"></form>
+
+// Step 2 //
+// HTML //
+
+<form id="calorie-counter">
+          <label for="budget">Budget</label> 
+          <input type="budget" id="budget">
+        </form>
+
+// Step 3 //
+// HTML //
+<form id="calorie-counter">
+          <label for="budget">Budget</label>
+          <input type="number" id="budget" min="0" placeholder="Daily calorie budget" required/>
+        </form>
+
+// Step 4 //
+// HTML //
+
+<fieldset id="breakfast">
+  <legend>
+  Breakfast
+  </legend>
+  <div class="input-container"></div>
+</fieldset>
+
+// Step 5 //
+// HTML //
+
+<fieldset id="lunch">
+<legend>
+Lunch
+</legend>
+<div class="input-container"></div>
+</fieldset>
+
+// Step 6 //
+// HTML //
+
+<fieldset id="dinner">
+  <legend>Dinner</legend>
+      <div class="input-container"></div>
+</fieldset>
+
+// Step 7 //
+// HTML //
+
+<fieldset id="snacks">
+  <legend>Snacks</legend>
+      <div class="input-container"></div>
+</fieldset>
+<fieldset id="exercise">
+  <legend>Exercise</legend>
+      <div class="input-container"></div>
+</fieldset>
+
+// Step 8 //
+// HTML //
+
+<div class="controls">
+  <span></span>
+</div>
+
+// Step 9 //
+// HTML //
+
+<div class="controls">
+            <span>
+              <label for="entry-dropdown" text="Add food or exercise">Add food or exercise:</label>
+              <select id="entry-dropdown" name="options"></select>
+              <button type="button" id="add-entry">Add Entry</button>
+            </span>
+          </div>
+
+// Step 10 //
+// HTML //
+
+<div class="controls">
+            <span>
+              <label for="entry-dropdown">Add food or exercise:</label>
+              <select id="entry-dropdown" name="options">
+                <option value="breakfast" selected>Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+                <option value="snacks">Snacks</option>
+                <option value="exercise">Exercise</option>
+
+              </select>
+              <button type="button" id="add-entry">Add Entry</button>
+            </span>
+          </div>
+
+// Step 11 //
+// HTML //
+
+<div>
+  <button type="submit">Calculate Remaining Calories</button>
+  <button type="button" id="clear">Clear</button>
+</div>
+
+// Step 12 //
+// HTML //
+
+<div id="output" class="output hide"></div>
+
+// Step 13 //
+// HTML //
+
+<script src="script.js"></script>
+
+// Step 14 //
+// JS //
+
+const calorieCounter = document.getElementById('calorie-counter');
+
+// Step 15 //
+// JS //
+
+const budgetNumberInput = document.getElementById('budget');
+const entryDropdown = document.getElementById('entry-dropdown');
+
+// Step 16 //
+// JS //
+
+const addEntryButton = document.getElementById('add-entry');
+const clearButton = document.getElementById('clear');
+const output = document.getElementById('output');
+
+// Step 17 //
+// JS //
 
 
 
