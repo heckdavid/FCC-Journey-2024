@@ -23129,6 +23129,142 @@ const output = document.getElementById('output');
 // Step 17 //
 // JS //
 
+let isError = false;
+
+// Step 18 //
+// JS //
+
+function cleanInputString(str) {
+  
+};
+
+// Step 19 //
+// JS //
+
+ const regex = /hello/;
+
+// Step 20 //
+// JS //
+
+const regex = /\+-/;
+
+// Step 21 //
+// JS //
+
+const regex = /\+-\s/;
+
+// Step 22 //
+// JS //
+
+const regex = /[+-\s]/;
+
+// Step 23 //
+// JS //
+
+const regex = /[+-\s]/g;
+
+// Step 24 //
+// JS //
+
+return str.replace(regex, "");
+
+// Step 25 //
+// JS //
+
+console.log("original string: ", str);  
+
+// Step 26 //
+// JS //
+
+console.log(cleanInputString("+-99"));
+
+// Step 27 //
+// JS //
+
+// Removed 2 console logs //
+
+// Step 28 //
+// JS //
+
+function isInvalidInput(str) {
+  
+}
+
+// Step 29 //
+// JS //
+
+let regex = /e/;
+
+// Step 30 //
+// JS //
+
+const regex = /e/i;
+
+// Step 31 //
+// JS //
+
+const regex = /[0-9]e[0-9]/i;
+
+// Step 32 //
+// JS //
+
+const regex = /[0-9]+e[0-9]+/i;
+
+// Step 33 //
+// JS //
+
+const regex = /\d+e\d+/i;
+
+// Step 34 //
+// JS //
+
+return str.match(regex);
+
+// Step 35 //
+// JS //
+
+console.log(isInvalidInput("1e3"));
+
+// Step 36 //
+// JS //
+
+console.log(isInvalidInput("10"));
+
+// Step 37 //
+// JS //
+
+// Removed console.log statement //
+
+// Step 38 //
+// JS //
+
+function addEntry() {
+  
+} 
+
+// Step 39 //
+// JS //
+
+// PAUSED on this one. Try to understand this one better
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
